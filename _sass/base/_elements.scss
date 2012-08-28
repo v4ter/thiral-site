@@ -1,0 +1,95 @@
+/*= @group Elements
+---------------------------------------------------------------------- */
+
+	/*= @group Typography
+	---------------------------------------------------------------------- */
+
+	body { 
+		font-weight: normal;
+		font-size: 13px;
+		line-height: 1.4;
+	}
+
+	/*= @group Font Stacks
+	---------------------------------------------------------------------- */
+
+	/* Default font stack */
+	body, select, input, textarea, button { font-family: $ff-sans; }
+
+	/* Display font stack */
+	h1, h2, h3, h4, h5, h6 { font-family: $ff-serif; }
+
+	/* Monospace font stack, for code samples and preformatted content */
+	pre, code, kbd, samp { font-family: monospace, serif; }
+
+	/*= @group Headings
+	---------------------------------------------------------------------- */
+
+	h1, h2, h3, h4, h5, h6  { font-weight: normal; color: #bd6b19;}
+
+	h1, .heading1 { font-size: 26px; margin:0 0 15px 0; }
+	h2, .heading2 { font-size: 24px; margin:0 0 12px 0; }
+	h3, .heading3 { font-size: 21px; margin:0 0 10px 0; }
+	h4, .heading4 { font-size: 18px; margin:0 0 8px 0; }
+	h5, .heading5 { font-size: 16px; margin:0 0 5px 0; }
+	h6, .heading6 { font-size: 14px; margin:0 0 5px; }
+
+	.highlight1 { color: #fff; }
+	.highlight2 { color: #cc6907; }
+	.highlight3 { color: #ffc600; }
+
+	.big { font-size: 40px; }
+
+	/*= @group Links
+	---------------------------------------------------------------------- */
+	// Declared: link, visited, hover, active
+
+    a {
+		text-decoration: none;
+		border-bottom: 1px dotted $color-link-default;
+		word-wrap: break-word;
+    }
+
+	a           { color: $color-link-default; }
+	a:visited   { color: $color-link-visited; }
+	a:hover     { color: $color-link-hover;   }
+	a:active    { color: $color-link-active;  }
+
+	/*= @group Text Level Elements
+	---------------------------------------------------------------------- */
+
+	p  { color: #000; margin: 0 0 18px 0; }
+
+	/* Lists */
+	ul, ol, dl            { padding: 0; margin: 0 0 rs($base-lh) 0;}
+	ul ul, ol ol, dl dl   { margin-bottom: 0; }
+	ul li, ol li          { margin-left: rs($base-lh,$base-fs); }
+	ul li                 { list-style: disc outside; }
+	ol li                 { list-style: outside decimal; }
+	ul ul              	  { margin: rs($base-lh/2) 0 0 rs($base-fs); }
+	dl dt                 { font-weight: bold; }
+	dl dd                 { margin: 0 0 rs($base-fs) 0; }
+
+	nav ul, 
+	nav ol, 
+	nav li, 
+	.clearlist, 
+	.clearlist li	{
+		list-style: none;
+		list-style-image: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Text Marking */
+
+	abbr[title], dfn[title] {
+		cursor: help;
+		border-bottom: 1px dotted;
+	}
+
+	/*= @group Embeded Content
+	---------------------------------------------------------------------- */
+
+	img, embed, object, video { max-width: 100%; }
+	img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }

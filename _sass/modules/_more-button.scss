@@ -1,0 +1,23 @@
+.more-button{
+	display:block;
+	@include background-image(linear-gradient(#fbb606, #f78705));
+	background-color: #f78705;
+	border:1px solid #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: -1px 1px 0px #f47910;
+	padding: 8px 12px;
+	position:absolute;
+	bottom: 14px;
+	right: 40px;
+	font-weight: bold;
+	text-align: center;
+
+	&:hover{
+		color: #fff;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+	}
+
+}

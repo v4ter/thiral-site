@@ -1,0 +1,52 @@
+@import 'compass';
+
+// Variables
+
+
+// Main colour palette
+$color-primary : inherit;
+$color-secondary : inherit;
+$color-highlight : inherit;
+
+// Common colours
+$color-text : inherit;
+$color-background : inherit;
+$color-border : inherit;
+
+// Links
+$color-link-default : inherit;
+$color-link-visited : inherit;
+$color-link-hover : inherit;
+$color-link-active : inherit;
+
+// Code
+$color-code : inherit;
+$color-code-background : inherit;
+$color-pre : inherit;
+$color-pre-background : inherit;
+
+// Selections
+$color-selection : inherit;
+
+// Base Sizes
+// ==========
+
+// Included shorthands as these may be used a lot.
+
+$base-font-size : 16;
+$base-line-height : 24;
+$base-fs : $base-font-size;
+$base-lh : $base-line-height;
+
+
+// Font Stacks
+// ===========
+
+$ff-sans : Verdana, Arial, sans-serif;
+$ff-serif : Din, 'Times New Roman', serif;
+
+$ff-default : $ff-sans;
+
+//Aliases
+$bb : border-box;
+

@@ -1,0 +1,1240 @@
+/*= @group Normalize
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000314}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000320}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000324}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000329}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000333}}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000339}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000343}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000348}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000352}}
+h1 {
+  font-size: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000356}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000361}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000365}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000369}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000377}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000382}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000388}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000392}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\0000397}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003104}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003108}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003112}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003116}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003120}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003124}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003130}}
+legend {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003138}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003145}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003152}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003158}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003163}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003168}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003176}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003181}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003186}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_normalize\.scss}line{font-family:\00003191}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*= @group Fonts
+---------------------------------------------------------------------- */
+@font-face {
+  font-family: Din;
+  src: url('../fonts/cfdin-b0.eot');
+  src: url('../fonts/cfdin-b0.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*= @group Elements
+---------------------------------------------------------------------- */
+/*= @group Typography
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\000037}}
+body {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/*= @group Font Stacks
+---------------------------------------------------------------------- */
+/* Default font stack */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000317}}
+body, select, input, textarea, button {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+/* Display font stack */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000320}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Din, "Times New Roman", serif;
+}
+
+/* Monospace font stack, for code samples and preformatted content */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000323}}
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+}
+
+/*= @group Headings
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000328}}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #bd6b19;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000330}}
+h1, .heading1 {
+  font-size: 26px;
+  margin: 0 0 15px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000331}}
+h2, .heading2 {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000332}}
+h3, .heading3 {
+  font-size: 21px;
+  margin: 0 0 10px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000333}}
+h4, .heading4 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000334}}
+h5, .heading5 {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000335}}
+h6, .heading6 {
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000337}}
+.highlight1 {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000338}}
+.highlight2 {
+  color: #cc6907;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000339}}
+.highlight3 {
+  color: #ffc600;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000341}}
+.big {
+  font-size: 40px;
+}
+
+/*= @group Links
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000347}}
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted inherit;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000353}}
+a {
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000354}}
+a:visited {
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000355}}
+a:hover {
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000356}}
+a:active {
+  color: inherit;
+}
+
+/*= @group Text Level Elements
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000361}}
+p {
+  color: #000;
+  margin: 0 0 18px 0;
+}
+
+/* Lists */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000364}}
+ul, ol, dl {
+  padding: 0;
+  margin: 0 0 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000365}}
+ul ul, ol ol, dl dl {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000366}}
+ul li, ol li {
+  margin-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000367}}
+ul li {
+  list-style: disc outside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000368}}
+ol li {
+  list-style: outside decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000369}}
+ul ul {
+  margin: 0.75em 0 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000370}}
+dl dt {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000371}}
+dl dd {
+  margin: 0 0 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000377}}
+nav ul,
+nav ol,
+nav li,
+.clearlist,
+.clearlist li {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Text Marking */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000386}}
+abbr[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted;
+}
+
+/*= @group Embeded Content
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000394}}
+img, embed, object, video {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_elements\.scss}line{font-family:\0000395}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/*= @group Layout
+---------------------------------------------------------------------- */
+/*= @group Common
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\000036}}
+body {
+  background: url('../img/body_bg.jpg') repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000310}}
+.container {
+  width: 970px;
+  margin: 0 auto 65px;
+}
+
+/*= @group Header
+---------------------------------------------------------------------- */
+/*= @group Header-top
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000320}}
+.header-top {
+  overflow: hidden;
+  padding: 25px 30px 15px 20px;
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000326}}
+.logo {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000330}}
+.lang {
+  float: right;
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000335}}
+.lang li {
+  display: inline;
+  padding: 2px 17px;
+  border-left: 1px solid #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000340}}
+.lang li:first-child {
+  border-left: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000345}}
+.lang a {
+  color: #919795;
+  display: inline-block;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000350}}
+.lang a:hover {
+  color: black;
+}
+
+/*= @group Main-nav
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000357}}
+.main-nav {
+  background-color: #cc6906;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #cc6906), color-stop(100%, #fe9e0e));
+  background-image: -webkit-linear-gradient(left, #cc6906, #fe9e0e);
+  background-image: -moz-linear-gradient(left, #cc6906, #fe9e0e);
+  background-image: -o-linear-gradient(left, #cc6906, #fe9e0e);
+  background-image: linear-gradient(left, #cc6906, #fe9e0e);
+  padding: 14px 27px;
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000364}}
+.main-nav li {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000368}}
+.main-nav a {
+  display: inline-block;
+  color: #fff;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000375}}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/*= @group Slider
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000382}}
+.slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 20px 0 30px;
+  height: 309px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000390}}
+.slide img {
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\0000392}}
+.slider-desc {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px;
+  width: 380px;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003102}}
+.slider-desc {
+  background: url('../img/slider_desc_bg.png') repeat-y left top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003106}}
+.slider-desc h1 {
+  margin-bottom: 25px;
+}
+
+/*= @group Main
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003112}}
+[role=main] {
+  margin: 30px 0 15px;
+  background: url('../img/main_bg.jpg') no-repeat left bottom;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003117}}
+.home-page, .no-sidebar {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003119}}
+.main-content {
+  float: right;
+}
+
+/*= @group Sidebar
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003125}}
+.sidebar {
+  width: 201px;
+  float: left;
+  background: url('../img/sidebar_bg1.jpg') no-repeat left top;
+  background-color: #000;
+  min-height: 470px;
+  padding: 17px 0 13px;
+}
+
+/*= @group Side-Nav
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003137}}
+.side-nav > ul > li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 203px;
+  left: -1px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 32px 0 20px;
+  background: url('../img/sidenav_li_bg.png') no-repeat left top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003149}}
+.side-nav-inner {
+  padding: 8px 0 8px 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003153}}
+.side-nav-inner li {
+  font-size: 12px;
+  list-style: square outside;
+  color: #d58323;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003159}}
+.side-nav-inner a {
+  display: block;
+  padding: 5px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003164}}
+.side-nav a {
+  font-weight: normal;
+  color: #fff;
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003170}}
+.side-nav-inner a.active, .side-nav-inner a:hover {
+  color: #f2c377;
+}
+
+/*= @group Banners
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003176}}
+.banners {
+  margin: 45px 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003181}}
+.banner {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4e4e4d), color-stop(100%, #343434));
+  background-image: -webkit-linear-gradient(#4e4e4d, #343434);
+  background-image: -moz-linear-gradient(#4e4e4d, #343434);
+  background-image: -o-linear-gradient(#4e4e4d, #343434);
+  background-image: linear-gradient(#4e4e4d, #343434);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #494a49;
+  padding: 8px 8px;
+  width: 138px;
+  margin: 18px auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003190}}
+.banner-desc {
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003194}}
+.banner-desc * {
+  color: #fff;
+}
+
+/*= @group Footer
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003201}}
+.footer {
+  border-top: 13px solid #828282;
+  padding: 24px 32px;
+  background: #575757 url('../img/footer_bg.jpg') no-repeat left bottom;
+  position: relative;
+  font-size: 12px;
+  color: #fffffe;
+  margin-top: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003211}}
+.footer, .footer-col p {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003213}}
+.footer:after, .footer:before {
+  content: ' ';
+  position: absolute;
+  height: 82%;
+  width: 1px;
+  background-color: #8a8a8a;
+  top: 8%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003222}}
+.footer:before {
+  left: 33%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003223}}
+.footer:after {
+  left: 64%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003225}}
+.footer-col {
+  padding: 10px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003229}}
+.footer-col h2 {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003234}}
+.footer-col li {
+  color: #ffc600;
+  margin-bottom: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003239}}
+.footer-col a {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003242}}
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003245}}
+.contact-p {
+  margin-bottom: 20px;
+}
+
+/*= @group HomePage
+---------------------------------------------------------------------- */
+/*= @group Showcase
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003255}}
+.showcase {
+  margin: 0 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003259}}
+.showcase .col {
+  padding: 0 8px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003264}}
+.showcase-desc {
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003268}}
+.showcase-desc h2, .showcase p {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003272}}
+.showcase h2 {
+  position: absolute;
+  left: 11px;
+  top: 3px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 297px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003282}}
+.showcase p {
+  font-size: 12px;
+}
+
+/*= @group General
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003289}}
+.general {
+  background: white url('../img/general_bg.jpg') no-repeat left bottom;
+  border-top: 3px solid #fc9c0e;
+  padding: 22px 0 18px 0;
+  margin-bottom: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003296}}
+.general .col {
+  position: relative;
+  padding: 0 15px 30px;
+  height: 265px;
+  background: url('../img/general_separator.png') no-repeat left 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003303}}
+.general p {
+  color: #414141;
+  line-height: 1.2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003308}}
+.excerpt-title {
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #d5d5d5;
+  margin-bottom: 9px;
+}
+
+/*= @group Products-Page
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003319}}
+.products-page .main-content {
+  width: 768px;
+  background-color: #4e4e4e;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 8px 6px 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003327}}
+.product {
+  float: left;
+  margin-left: 16px;
+  background-color: #434343;
+  width: 360px;
+  height: 287px;
+  margin-bottom: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003336}}
+.product * {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003340}}
+.product-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 17px 20px 17px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.3;
+  height: 205px;
+  background-size: cover !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003350}}
+.product-content h2 {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003354}}
+.product-content img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003360}}
+.product-rel {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 92px;
+  border-top: 1px solid #fff;
+  clear: both;
+  text-align: center;
+  padding: 18px 15px 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003369}}
+.product-rel ul {
+  overflow: hidden;
+  margin: -8px 0 0 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003374}}
+.product-rel li {
+  color: #fdd000;
+  float: left;
+  width: 130px;
+  margin: 0 0 2px 20px;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003382}}
+.product-rel a:hover {
+  color: #fdd000;
+}
+
+/*= @group Main-content
+---------------------------------------------------------------------- */
+/*= @group Simple-Page
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003389}}
+.simple-page .main-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  width: 769px;
+  background-color: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003396}}
+.article-rel {
+  width: 769px;
+  position: relative;
+  margin: 0 0 -15px -30px;
+}
+
+/*= @group Breadcrumbs
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003404}}
+.breadcrumbs {
+  border: 1px solid #fff;
+  border-right: none;
+  margin-bottom: 24px;
+  display: inline-block;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003412}}
+.breadcrumbs a, .breadcrumbs span {
+  float: left;
+  padding: 0 8px 0 12px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003419}}
+.breadcrumbs a {
+  color: #656565;
+  background: #dfdfdf url('../img/bc_inactive.png') no-repeat left top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003423}}
+.breadcrumbs a:first-child {
+  background: #dfdfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003424}}
+.breadcrumbs a:hover {
+  color: #d17d18;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003427}}
+.breadcrumbs span {
+  position: relative;
+  color: #fff;
+  background: #d17d18 url('../img/bc_active.png') no-repeat left top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003433}}
+.breadcrumbs span:after {
+  content: ' ';
+  position: absolute;
+  right: -7px;
+  top: 0;
+  background-image: url('../img/bc_active_front.png');
+  height: 22px;
+  width: 8px;
+}
+
+/*= @group Main-article
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003446}}
+.main-article {
+  margin-bottom: 45px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003450}}
+.main-article h1, .simple-page h2 {
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003456}}
+.main-article img.f-left {
+  margin: 15px 15px 15px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003457}}
+.main-article img.f-right {
+  margin: 15px 0 15px 15px;
+}
+
+/*= @group Downloads
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003462}}
+.downloads {
+  background-color: #ececec;
+  padding: 14px 30px 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003467}}
+.downloads h2 {
+  border-bottom: 1px dotted #b2b2b2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003471}}
+.downloads li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0 0 7px 0;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003478}}
+.downloads a {
+  font-size: 11px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003482}}
+.downloads a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003485}}
+.acrobat li {
+  padding-left: 20px;
+  background: url('../img/_samples/icon_acrobat.png') no-repeat left 4px;
+}
+
+/*= @group Gallery
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003493}}
+.gallery {
+  background-color: #dfdfdf;
+  padding: 24px 30px 30px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003499}}
+.gallery h2 {
+  border-bottom: 1px dotted #9d9d9d;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003503}}
+.gallery figure {
+  float: left;
+  width: 22%;
+  margin-left: 4%;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003509}}
+.gallery figure:nth-of-type(4n+1) {
+  margin-left: 0;
+}
+
+/*= @group Media
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003516}}
+.media {
+  background-color: #c0c0c0;
+  padding: 42px 30px 14px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003522}}
+.media h2 {
+  border-bottom: 1px dotted #929292;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003526}}
+.media-content {
+  float: left;
+  margin-right: 15px;
+  max-width: 410px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/layout\/_containers\.scss}line{font-family:\00003532}}
+.media-desc {
+  float: right;
+  max-width: 280px;
+}
+
+/*= @group Cols-grid
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/modules\/_cols-grid\.scss}line{font-family:\000033}}
+.cols3 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/modules\/_cols-grid\.scss}line{font-family:\000038}}
+.cols3 .col {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/modules\/_more-button\.scss}line{font-family:\000031}}
+.more-button {
+  display: block;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbb606), color-stop(100%, #f78705));
+  background-image: -webkit-linear-gradient(#fbb606, #f78705);
+  background-image: -moz-linear-gradient(#fbb606, #f78705);
+  background-image: -o-linear-gradient(#fbb606, #f78705);
+  background-image: linear-gradient(#fbb606, #f78705);
+  background-color: #f78705;
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: -1px 1px 0px #f47910;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 14px;
+  right: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/modules\/_more-button\.scss}line{font-family:\0000318}}
+.more-button:hover {
+  color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+/*= @group Helpers
+---------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000034}}
+.f-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000035}}
+.f-right {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000036}}
+img.f-left {
+  margin: 10px 10px 10px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000037}}
+img.f-right {
+  margin: 10px 0 10px 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000038}}
+img.border {
+  border: 1px solid #b5b5b6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\000039}}
+img.shadow {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000311}}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000317}}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000324}}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000329}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000341}}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000350}}
+.invisible {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000355}}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/thiral-site\/_sass\/base\/_helpers\.scss}line{font-family:\0000360}}
+.clearfix:after {
+  clear: both;
+}

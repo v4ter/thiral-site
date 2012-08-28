@@ -1,0 +1,12 @@
+/*= @group Cols-grid
+---------------------------------------------------------------------- */
+.cols3{
+	@include box-sizing($bb);
+	overflow:hidden;
+}
+
+.cols3 .col{
+	@include box-sizing($bb);
+	float:left;
+	width: 33%;
+}

@@ -1,0 +1,62 @@
+/*= @group Helpers
+---------------------------------------------------------------------- */
+
+.f-left{ float:left; }
+.f-right{ float:right; }
+img.f-left{ margin: 10px 10px 10px 0;}
+img.f-right{ margin: 10px 0 10px 10px;}
+img.border{border: 1px solid #b5b5b6;}
+img.shadow{box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);}
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
